@@ -1,0 +1,48 @@
+page-result {
+
+    .scroll-content{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        background-image: url("/assets/icon/bg2.png");
+        background-size: cover;
+        padding: 0 !important;
+        
+    }
+
+
+    .container{
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    h1{
+        color: #FFF;
+        font-size: 35px;
+        position: relative;
+        font-weight: lighter;
+    }
+
+    h1:before{
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 7px;
+        background-color: #fff;
+        bottom: -10px;
+        border-radius: 5px;
+    }
+
+    .btn-confirm{
+        margin-top: 10px;
+        background-color: #8AAA75;
+        color: #FFF;
+        width: 90%;
+    }
+
+}

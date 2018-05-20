@@ -1,0 +1,47 @@
+<!--
+  Generated template for the MatchListPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Match</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="container">
+
+      <ul>
+
+          <li *ngFor="let human of humans" [ngClass]="{'active': human.actualDriver}">
+            
+            <img src="{{ human.picture }}" alt=""/>
+            
+            <div class="info-human">
+                <span class="human-name">
+                    {{ human.name }}
+                </span>
+                <span class="car-id">
+                    {{ human.placa }}
+                </span>
+            </div>
+           
+            
+            
+          </li>
+      
+        </ul>
+      
+        <button ion-button full round color="light" (click)="confirm()"  class="btn-confirm">Confirmar</button>
+      
+  </div>
+
+  
+
+</ion-content>

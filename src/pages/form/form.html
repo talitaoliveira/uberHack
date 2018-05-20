@@ -1,0 +1,63 @@
+<!--
+  Generated template for the FormPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="conatainer">
+
+    <form (ngSubmit)="registrer()">
+      <ion-item>
+        <ion-label>
+          <ion-icon name="person"></ion-icon>
+        </ion-label>
+        <ion-input clearInput type="text" name="login" [(ngModel)]="register.login"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>
+              <ion-icon name="locate"></ion-icon>
+          </ion-label>
+          <ion-input clearInput type="text" name="startAddress" [(ngModel)]="register.startAddress"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>
+                <ion-icon name="pin"></ion-icon>
+            </ion-label>
+            <ion-input clearInput type="text" name="endAddress" [(ngModel)]="register.endAddress"></ion-input>
+          </ion-item>
+
+      <ion-item>
+        <ion-label>
+          <ion-icon name="ios-key"></ion-icon>
+        </ion-label>
+        <ion-input clearInput type="password" name="password" [(ngModel)]="register.password"></ion-input>
+      </ion-item>
+
+       <ion-item>
+          <ion-label>
+              <ion-icon name="clock"></ion-icon>
+          </ion-label>
+          <ion-datetime displayFormat="HH:mm" [(ngModel)]="register.time" name="time" class="time"></ion-datetime>
+     </ion-item>
+
+      <button type="submit" ion-button full color="light" class="btn-register">Cadastro</button>
+
+    </form>
+  </div>
+
+
+
+</ion-content>

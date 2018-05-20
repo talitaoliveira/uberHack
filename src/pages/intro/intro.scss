@@ -1,0 +1,93 @@
+page-intro {
+    
+
+    .scroll-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        background-image: url("/assets/icon/bg.png");
+        background-size: cover;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: -100px
+    }
+
+    h1{
+        //margin-bottom: 100px;
+    }
+
+    .conatiner-buttons{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+
+      button{
+        width: 90%;
+        margin: 10px 0;
+        text-transform: capitalize;
+        font-size: 18px;
+        box-shadow: transparent;
+      }
+
+      .btn-login{
+            background-color: #282938 !important;
+            border: 1px solid #FFF;
+            color: #81AC6F;
+        }
+    }
+
+    .user-pass{
+        margin-top: 20px;
+        color: #FFF;
+
+        a{
+            color: #FFF;
+            font-size: 15px;
+            text-decoration: none;
+        }
+    }
+
+    .conatiner-buttons-social{
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+
+        button{
+            width: 45%;
+            background-color: #282938 !important;
+            border: 1px solid #FFF;
+            color: #FFF;
+            text-transform: capitalize;
+            font-size: 13px;
+            height: 30px;
+
+            &:last-child{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .container-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+
+}

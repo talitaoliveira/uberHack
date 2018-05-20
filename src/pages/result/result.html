@@ -1,0 +1,36 @@
+<!--
+  Generated template for the ResultPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+
+<ion-content>
+
+    <div class="container container-motorista" *ngIf="current == 'driver'" >
+      <img src="/assets/icon/icon-car.png" alt="" width=150>
+        <h1>Motorista da Vez...</h1>
+    </div>
+
+    <div class="container container-passageiro" *ngIf="current == 'rider'">
+        <img src="/assets/icon/icon-people.png" alt="" width=150>
+          <h1>Passageiro da Vez...</h1>
+      </div>
+
+      <button ion-button full round color="light" (click)="confirm(current)"  class="btn-confirm">Confirmar</button>
+
+  
+   
+  
+  </ion-content>
+  
