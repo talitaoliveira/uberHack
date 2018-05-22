@@ -1,4 +1,4 @@
-# UberHack - Projeto: Roadeasy
+# UberHack - Projeto: Rodeasy
 
 <div align="center">
 	<img width="100" src="src/assets/icon/logo.png" alt="Awesome">
