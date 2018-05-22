@@ -26,6 +26,6 @@ Time formado por:
 
 **Designer:** [Dyogo Viana](https://github.com/DyogoViana)
 
-**Designer:** Natalia Oliveira
+**Designer:** [Natalia Oliveira](https://www.behance.net/nataliamso)
 
 **Desenvolvedora:** [Talita Oliveira](https://github.com/talitaoliveira)
