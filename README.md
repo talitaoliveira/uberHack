@@ -1,6 +1,10 @@
 # UberHack - Projeto: Roadeasy
 
-
+<div align="center">
+	<img width="100" src="src/assets/icon/logo.png" alt="Awesome">
+    <br>
+    <img width="100" src="src/assets/icon/nome.png" alt="Awesome">
+</div>
 
 ## O Evento
 
