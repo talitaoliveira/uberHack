@@ -22,7 +22,7 @@ A solução propõe a união de pessoas que percorrem o mesmo caminho frequentem
 
 Time formado por:
 
-**Negócios:** Daisy Souza
+**Negócios:** [Daisy Souza](https://www.linkedin.com/in/daisy-souza-79b3a0a4/)
 
 **Designer:** [Dyogo Viana](https://github.com/DyogoViana)
 
